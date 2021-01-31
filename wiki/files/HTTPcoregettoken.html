@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Secondbot Wiki HTTPpost</title>
+<title>Secondbot Wiki HTTP</title>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
 <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
@@ -16,7 +16,7 @@
                 <a href="Core.html" class="nav-item nav-link ">Main commands [Core]</a>
                 <a href="JSON.html" class="nav-item nav-link ">JSON [Bot Config file]</a>
                 <a href="RLVapi.html" class="nav-item nav-link ">Restrained Love API [RLV]</a>
-                <a href="HTTPpost.html" class="nav-item nav-link Active">Post [HTTP]</a>
+                <a href="HTTP.html" class="nav-item nav-link Active">WebLink [HTTP]</a>
             </div>
             <div class="navbar-nav ml-auto">
                 <a href="https://bitbucket.org/streamadmin/secondbot/src/master/" target="_BLANK" class="nav-item nav-link">Get Source</a>
@@ -25,7 +25,7 @@
         </div>
     </div>    
 </nav>
-<div class="container-fluid"><h3>Build: 3c4158b</h3><br/><h4>Interface: <a href='HTTPpost.html'>HTTPpost</a> / <a href='HTTPpostActions.html'>Actions</a></h4><hr/><h3>logout</h3>Makes the bot logout<br/> Returns OK,I dont want to go if accepted</div>
+<div class="container-fluid"><h3>Build: 3c4158b</h3><br/><h4>Interface: <a href='HTTP.html'>HTTP</a> / <a href='HTTPcore.html'>core</a></h4><hr/><h3>gettoken</h3>http://localhost:8080/core/gettoken/<br/>Method: post<hr style='border-top: 1px dashed #dcdcdc;'>Requests a new token (Vaild for 10 mins) <br/>to use with all other requests<hr/><h4>Args helper</h4><table class='table table-striped table-bordered'><thead><tr><td>Name</td><th>Type</th><th>Hint</th></tr></thead><tbody><tr><td>Authcode</td><td>string</td><td>the first 10 chars of SHA1(unixtime+WebUIkey)<br/>unixtime can be +- 30 of the bots time.</td></tr></tbody></table><hr/><h4>Possible replys</h4><ul><li>Authcode not accepted</li><li>New API Token</li></ul></div>
 <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
