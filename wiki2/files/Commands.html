@@ -23,13 +23,15 @@
         </div>
     </div>    
 </nav>
-<div class="container-fluid"><h3>Interface:Commands</h3><br/><h4>Build: d9d1a76</h4><br/><table class='datatable table table-striped table-bordered'><thead><tr><th>Workspace</th><th>Commands</th></tr></thead><tbody><tr><td><a href='Commandsanimation.html'>animation</a></td><td>3</td></tr><tr><td><a href='Commandsavatars.html'>avatars</a></td><td>2</td></tr><tr><td><a href='Commandschat.html'>chat</a></td><td>3</td></tr><tr><td><a href='Commandscore.html'>core</a></td><td>4</td></tr><tr><td><a href='Commandsdialogs.html'>dialogs</a></td><td>3</td></tr><tr><td><a href='Commandsestate.html'>estate</a></td><td>7</td></tr><tr><td><a href='Commandsfriends.html'>friends</a></td><td>3</td></tr><tr><td><a href='Commandsfunds.html'>funds</a></td><td>3</td></tr><tr><td><a href='Commandsgroup.html'>group</a></td><td>17</td></tr><tr><td><a href='Commandshome.html'>home</a></td><td>1</td></tr><tr><td><a href='Commandsim.html'>im</a></td><td>4</td></tr><tr><td><a href='Commandsinfo.html'>info</a></td><td>6</td></tr><tr><td><a href='Commandsinventory.html'>inventory</a></td><td>14</td></tr><tr><td><a href='Commandsmovement.html'>movement</a></td><td>10</td></tr><tr><td><a href='Commandsnotecard.html'>notecard</a></td><td>3</td></tr><tr><td><a href='Commandsparcel.html'>parcel</a></td><td>18</td></tr><tr><td><a href='Commandsself.html'>self</a></td><td>9</td></tr><tr><td><a href='Commandsstreamadmin.html'>streamadmin</a></td><td>1</td></tr></tbody></table></div>
+<div class="container-fluid"><h3>Interface:Commands</h3><br/><h4>Build: ace7898</h4><br/><table class='datatable table table-striped table-bordered'><thead><tr><th>Workspace</th><th>Commands</th></tr></thead><tbody><tr><td><a href='Commandsanimation.html'>animation</a></td><td>3</td></tr><tr><td><a href='Commandsavatars.html'>avatars</a></td><td>2</td></tr><tr><td><a href='Commandschat.html'>chat</a></td><td>3</td></tr><tr><td><a href='Commandscore.html'>core</a></td><td>4</td></tr><tr><td><a href='Commandsdialogs.html'>dialogs</a></td><td>3</td></tr><tr><td><a href='Commandsestate.html'>estate</a></td><td>7</td></tr><tr><td><a href='Commandsfriends.html'>friends</a></td><td>3</td></tr><tr><td><a href='Commandsfunds.html'>funds</a></td><td>3</td></tr><tr><td><a href='Commandsgroup.html'>group</a></td><td>18</td></tr><tr><td><a href='Commandshome.html'>home</a></td><td>1</td></tr><tr><td><a href='Commandsim.html'>im</a></td><td>4</td></tr><tr><td><a href='Commandsinfo.html'>info</a></td><td>6</td></tr><tr><td><a href='Commandsinventory.html'>inventory</a></td><td>14</td></tr><tr><td><a href='Commandsmovement.html'>movement</a></td><td>10</td></tr><tr><td><a href='Commandsnotecard.html'>notecard</a></td><td>3</td></tr><tr><td><a href='Commandsparcel.html'>parcel</a></td><td>18</td></tr><tr><td><a href='Commandsself.html'>self</a></td><td>9</td></tr><tr><td><a href='Commandsstreamadmin.html'>streamadmin</a></td><td>1</td></tr></tbody></table></div>
 <script src="https://code.jquery.com/jquery-3.3.1.js" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
 <script>
 $(document).ready(function() {
-    $('.datatable').DataTable();
+    $('.datatable').DataTable({
+    "pageLength": 999
+    });
 } );
 </script>
 </body>

@@ -23,7 +23,7 @@
         </div>
     </div>    
 </nav>
-<div class="container-fluid"><h3>Build: d9d1a76</h3><br/><h4>Interface: <a href='JSON.html'>JSON</a> / <a href='JSONLog2File.html'>Log2File</a></h4><hr/><h3>Log2File_Level</h3>Enabled logging levels
+<div class="container-fluid"><h3>Build: ace7898</h3><br/><h4>Interface: <a href='JSON.html'>JSON</a> / <a href='JSONLog2File.html'>Log2File</a></h4><hr/><h3>Log2File_Level</h3>Enabled logging levels
 - 1: Nothing
 0: Status only
 1: +Info
@@ -36,7 +36,9 @@
 <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
 <script>
 $(document).ready(function() {
-    $('.datatable').DataTable();
+    $('.datatable').DataTable({
+    "pageLength": 999
+    });
 } );
 </script>
 </body>
