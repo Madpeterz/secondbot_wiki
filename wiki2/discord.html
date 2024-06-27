@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Secondbot [Events] command wiki / Command list for Discord</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<style>
+    .card-deck {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+    .card {
+        flex: 1 0 auto;
+    }
+
+</style>
+</head>
+<body>
+    <div class="container-fluid px-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Secondbot [Events]</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/Madpeterz/SecondBot/wiki">Help docs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/Madpeterz/SecondBot">View source</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://webui.blackatom.win/">WebUI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="secondlife:///app/group/cbda0f35-1c0b-2a45-e693-62a63a8f9d88/about">Join SL group</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand" href="#">Build:e64a0e6 Wiki created:27/06/2024</a>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <br/><a href="index.html"><- Back to command sections</a><br/> <h4>Discord</h4><p>Control discord from the grid</p><hr/><div class="table-responsive"><table class="table table-hover table-bordered table-striped"><thead><tr><th>Command</th><th>About</th></tr></thead><tbody><tr><td><a href="commanddiscord_addrole.html">Discord_AddRole</a></td><td>Adds a discord server role to the selected member</td></tr><tr><td><a href="commanddiscord_banmember.html">Discord_BanMember</a></td><td>Adds the selected user to the ban list - Disallows rejoining untill they are removed from the list</td></tr><tr><td><a href="commanddiscord_bulkclear_messages.html">Discord_BulkClear_Messages</a></td><td>Clears messages on the server sent by the member in the last 13 days, 22hours 59mins</td></tr><tr><td><a href="commanddiscord_dm_member.html">Discord_Dm_Member</a></td><td>Sends a message directly to the user [They must be in the server]
+ This command requires the SERVER MEMBERS INTENT found in discord app dev</td></tr><tr><td><a href="commanddiscord_memberslist.html">Discord_MembersList</a></td><td>Returns a list of members in a server 
+ collection is userid: username 
+ if the user has set a nickname: userid: nickname|username 
+ This command requires Discord full client mode enabled and connected
+ !!!! This command also requires: Privileged Gateway Intents / SERVER MEMBERS INTENT set to true on the discord bot api area !!!</td></tr><tr><td><a href="commanddiscord_messagechannel.html">Discord_MessageChannel</a></td><td>Sends a message to the selected channel - Optional TTS usage</td></tr><tr><td><a href="commanddiscord_mutemember.html">Discord_MuteMember</a></td><td>Sends a message to the selected channel - Optional TTS usage</td></tr><tr><td><a href="commanddiscord_role_getsettings.html">Discord_Role_GetSettings</a></td><td>returns a collection of settings for the given role 
+ This command requires Discord full client mode enabled and connected</td></tr><tr><td><a href="commanddiscord_role_updateperms.html">Discord_Role_UpdatePerms</a></td><td>Updates perm flags for the selected role 
+ example CSV format: Speak=True,SendMessages=False 
+ for a full list of perms see output of Discord_Role_GetSettings 
+ This command requires Discord full client mode enabled and connected</td></tr><tr><td><a href="commanddiscord_rolecreate.html">Discord_RoleCreate</a></td><td>Updates perm flags for the selected role 
+ example CSV format: Speak=True,SendMessages=False 
+ for a full list of perms see output of Discord_Role_GetSettings 
+ This command requires Discord full client mode enabled and connected</td></tr><tr><td><a href="commanddiscord_rolelist.html">Discord_RoleList</a></td><td>Returns a list of roles and their ids in collection 
+ This command requires Discord full client mode enabled and connected</td></tr><tr><td><a href="commanddiscord_roleremove.html">Discord_RoleRemove</a></td><td>Remove a role from a server 
+ This command requires Discord full client mode enabled and connected</td></tr><tr><td><a href="commanddiscord_textchannels_list.html">Discord_TextChannels_List</a></td><td>Returns a list of text channels in a server</td></tr></tbody></table></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
