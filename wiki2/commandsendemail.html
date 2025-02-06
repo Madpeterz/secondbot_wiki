@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Secondbot [Events] command wiki / Command list for Notecard</title>
+    <title>Secondbot [Events] command wiki / Command info for SendEmail</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <style>
     .card-deck {
@@ -46,7 +46,7 @@
             </div>
         </nav>
         <div class="container-fluid">
-            <br/><a href="index.html"><- Back to command sections</a><br/> <h4>Notecard</h4><p>Why this is not a built in script command I will never know, but its due to needing this that the bot was made</p><hr/><div class="table-responsive"><table class="table table-hover table-bordered table-striped"><thead><tr><th>Command</th><th>About</th></tr></thead><tbody><tr><td><a href="commandnotecardread.html">NotecardRead</a></td><td>Reads the notecards content, if it is able to read the notecard will give a json reply of notecarduuid name and contents</td></tr><tr><td><a href="commandnotecardadd.html">NotecardAdd</a></td><td>Adds content to the Collection<br/> Also creates the Collection if it does not exist</td></tr><tr><td><a href="commandnotecardclear.html">NotecardClear</a></td><td>Clears the contents of a collection</td></tr><tr><td><a href="commandnotecardsend.html">NotecardSend</a></td><td>Sends a notecard to a avatar using the text in the prebuilt collection [see NotecardAdd] and also clears the collection just before sending [see NotecardClear]</td></tr><tr><td><a href="commandnotecarddirectsend.html">NotecardDirectSend</a></td><td>Creates and sends a notecard in one command good if you are using HTTP otherwise see [NotecardSend]</td></tr></tbody></table></div>
+            <br/><a href="self.html"><- Back to Self</a><br/> <h4>SendEmail</h4></a><p>use the SMTP service to send a email (requires AllowCommandSendMail to be true)</p><hr/><h5>Args</h5><div class="table-responsive"><table class="table table-hover table-bordered table-striped"><thead><tr><th>Name</th><th>Hint</th></tr></thead><tbody><tr><td>to</a></td><td>the email addres to send to</td></tr><tr><td>subject</a></td><td>the subject of the email</td></tr><tr><td>body</a></td><td>the contents of the email</td></tr></tbody></table></div><h5>Return hints</h5><ul class="list-group"><li class="list-group-item text-success">☑ sending</li><li class="list-group-item text-danger">❌ Send was rejected because: X</li><li class="list-group-item text-danger">❌ ARG is empty</li></ul>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
