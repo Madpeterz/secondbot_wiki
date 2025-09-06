@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Secondbot [Events] command wiki / Command info for ForceLoadGroups</title>
+    <title>Secondbot [Events] command wiki / Command info for SetEstateTerrainRaw</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <style>
     .card-deck {
@@ -46,7 +46,7 @@
             </div>
         </nav>
         <div class="container-fluid">
-            <br/><a href="group.html"><- Back to Group</a><br/> <h4>ForceLoadGroups</h4></a><p>Forces the bot to reload the groups list</p><hr/><h5>Return hints</h5><ul class="list-group"><li class="list-group-item text-success">☑ Working on it</li></ul><br/><h5>Example call</h5><br/>ForceLoadGroups<br/><br/>
+            <br/><a href="estate.html"><- Back to Estate</a><br/> <h4>SetEstateTerrainRaw</h4></a><p>Sets the terrain for the current sim from a url</p><hr/><h5>Args</h5><div class="table-responsive"><table class="table table-hover table-bordered table-striped"><thead><tr><th>Name</th><th>Hint</th><th>Type</th><th>Example value</th><th>Supported values</th></tr></thead><tbody><tr><td>urltofile</a></td><td>the url to the terrain file you wish to upload</td><td>Text</td><td></td><td></td></tr></tbody></table></div><h5>Return hints</h5><ul class="list-group"><li class="list-group-item text-success">☑ ok uploading with uuid <uuid></li><li class="list-group-item text-danger">❌ Not an estate manager here</li><li class="list-group-item text-danger">❌ No url provided</li><li class="list-group-item text-danger">❌ url must start with http:// or https://</li><li class="list-group-item text-danger">❌ Unable to download terrain data from url error <error message></li></ul><br/><h5>Example call</h5><br/>SetEstateTerrainRaw|||<br/><br/>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
