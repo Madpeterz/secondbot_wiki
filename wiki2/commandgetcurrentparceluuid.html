@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Secondbot [Events] command wiki / Command info for DeleteInventoryFolder</title>
+    <title>Secondbot [Events] command wiki / Command info for GetCurrentParcelUUID</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 <style>
     .card-deck {
@@ -46,7 +46,7 @@
             </div>
         </nav>
         <div class="container-fluid">
-            <br/><a href="inventory.html"><- Back to Inventory</a><br/> <h4>DeleteInventoryFolder</h4></a><p>Attempts to Remove the given inventory folder</p><hr/><h5>Args</h5><div class="table-responsive"><table class="table table-hover table-bordered table-striped"><thead><tr><th>Name</th><th>Hint</th><th>Type</th><th>Example value</th><th>Supported values</th></tr></thead><tbody><tr><td>folder</a></td><td>what folder are we removing</td><td>UUID</td><td>0415976a-7b0c-486d-9439-3801469530e5</td><td></td></tr></tbody></table></div><h5>Return hints</h5><ul class="list-group"><li class="list-group-item text-success">☑ ok</li><li class="list-group-item text-danger">❌ invaild folder uuid</li></ul><br/><h5>Example call</h5><br/>DeleteInventoryFolder|||0415976a-7b0c-486d-9439-3801469530e5<br/><br/>
+            <br/><a href="parcel.html"><- Back to Parcel</a><br/> <h4>GetCurrentParcelUUID</h4></a><p>Requests the current parcel uuid</p><hr/><h5>Return hints</h5><ul class="list-group"><li class="list-group-item text-success">☑ parcel uuid</li><li class="list-group-item text-danger">❌ Error not in a sim</li><li class="list-group-item text-danger">❌ Parcel data not ready</li><li class="list-group-item text-danger">❌ Unable to get parcel uuid</li></ul><br/><h5>Example call</h5><br/>GetCurrentParcelUUID<br/><br/>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
