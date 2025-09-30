@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Secondbot [Events] command wiki / Command info for AsyncRezObjectParcelCenter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<style>
+    .card-deck {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+    .card {
+        flex: 1 0 auto;
+    }
+
+</style>
+</head>
+<body>
+    <div class="container-fluid px-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Secondbot [Events]</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/Madpeterz/SecondBot/wiki">Help docs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/Madpeterz/SecondBot">View source</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://webui.blackatom.win/">WebUI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="secondlife:///app/group/cbda0f35-1c0b-2a45-e693-62a63a8f9d88/about">Join SL group</a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand" href="#">Build:231a19f Wiki created:30/09/2025</a>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <br/><a href="inventory.html"><- Back to Inventory</a><br/> <h4>AsyncRezObjectParcelCenter</h4></a><p>rezs the item at the parcel center</p><hr/><h5>Args</h5><div class="table-responsive"><table class="table table-hover table-bordered table-striped"><thead><tr><th>Name</th><th>Hint</th><th>Type</th><th>Example value</th><th>Supported values</th></tr></thead><tbody><tr><td>item</a></td><td>what to rez</td><td>UUID</td><td>0f93631b-c04b-437c-baf9-098706ca2157</td><td></td></tr><tr><td>zoffset</a></td><td>Z offset to apply (range -2 to 2)</td><td>Number</td><td>0.5</td><td></td></tr><tr><td>replyto</a></td><td>Where to send the reply to</td><td>SMART</td><td>HTTP URL, Avatar UUID or chat chanel</td><td></td></tr></tbody></table></div><h5>Return hints</h5><ul class="list-group"><li class="list-group-item text-success">☑ requestUUID check the smart reply for results</li><li class="list-group-item text-success">☑ Smart reply: json object of {request:"",status:BOOL,message:"",data:""</li><li class="list-group-item text-danger">❌ Invaild item UUID</li><li class="list-group-item text-danger">❌ Error not in a sim</li><li class="list-group-item text-danger">❌ Parcel data not ready</li><li class="list-group-item text-danger">❌ Invaild Z offset</li><li class="list-group-item text-danger">❌ Z offset must be between -2 and 2</li></ul><br/><h5>Example call</h5><br/>AsyncRezObjectParcelCenter|||0f93631b-c04b-437c-baf9-098706ca2157~#~0.5~#~1234<br/><br/>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
